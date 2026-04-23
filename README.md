@@ -1,32 +1,46 @@
 # EnglishHub 🎓
 
-## Запуск
+Платформа для изучения английского языка. Пользователи могут проходить курсы, выполнять задания и отслеживать свой прогресс.
 
-```bash
+Features
+Создание курсов
+Прохождение курсов
+Уроки и задания
+Тесты
+Личный кабинет пользователя
+Отслеживание прогресса
+Tech Stack
+React
+JavaScript
+HTML
+CSS
+Installation
+
+git clone https://github.com/username/english-platform.git
+
+cd english-platform
 npm install
-npm run dev
-```
 
-Открыть: http://localhost:5173
+Run
 
-## Аккаунты
+npm start
 
-| Роль | Email | Пароль |
-|------|-------|--------|
-| Admin | admin@test.com | admin123 |
-| User | user@test.com | user123 |
+Проект откроется по адресу:
+http://localhost:3000
 
-## Страницы
+Usage
+Зарегистрируйся / войди
+Выбери курс
+Проходи уроки и задания
+Следи за прогрессом
+Project Structure
 
-- `/` — Главная
-- `/courses` — Курсы (поиск, фильтр, сортировка)
-- `/courses/:id` — Детали курса
-- `/login` — Вход
-- `/register` — Регистрация
-- `/dashboard` — Дашборд 🔒
-- `/create` — Создать курс 🔒
-- `/edit/:id` — Редактировать 🔒 (владелец/admin)
-- `/my-courses` — Мои курсы 🔒
-- `/favorites` — Избранное 🔒
-- `/profile` — Профиль 🔒
-- `/admin` — Админка 🔒🔒 (только admin)
+src/
+components/
+pages/
+styles/
+App.js
+index.js
+
+Author
+Kadyrova Diana
